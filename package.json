@@ -1,0 +1,10 @@
+{
+  "name": "social-app",
+  "version": "0.0.1",
+  "description": "React Typescript Social Media App",
+  "main": "index.js",
+  "repository": "https://github.com/Munei89/grapgh-ql-social-media-app.git",
+  "author": "Munei Nengwenani",
+  "license": "MIT",
+  "private": false
+}
