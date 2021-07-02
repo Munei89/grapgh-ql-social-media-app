@@ -6,5 +6,11 @@
   "repository": "https://github.com/Munei89/grapgh-ql-social-media-app.git",
   "author": "Munei Nengwenani",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "graph-qli": "^1.0.2",
+    "graphql": "^15.5.1",
+    "mongoose": "^5.13.0"
+  }
 }
