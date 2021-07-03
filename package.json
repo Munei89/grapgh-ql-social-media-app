@@ -7,10 +7,16 @@
   "author": "Munei Nengwenani",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "start": "nodemon index"
+  },
   "dependencies": {
     "apollo-server": "^2.25.2",
+    "bcryptjs": "^2.4.3",
     "graph-qli": "^1.0.2",
     "graphql": "^15.5.1",
-    "mongoose": "^5.13.0"
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.0",
+    "nodemon": "^2.0.9"
   }
 }
