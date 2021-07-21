@@ -2,7 +2,7 @@ const gql = require("graphql-tag");
 
 module.exports = gql`
   type Post {
-    _id: ID!
+    id: ID!
     body: String!
     createdAt: String!
     username: String!
@@ -26,9 +26,12 @@ module.exports = gql`
   }
   type Query {
     getPosts: [Post]
+    getPost(postId: String!): Post
   }
   type Mutation {
     register(registerInput: RegisterInput): User!
     login(username: String!, password: String): User!
+    createPost(body: String!): Post!
+    deletePost(postId: String!): String!
   }
 `;
