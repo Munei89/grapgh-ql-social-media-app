@@ -53,8 +53,6 @@ module.exports = {
       } catch (err) {
         throw new Error("Not logged in");
       }
-
-      // if(user.username)
     },
   },
 };
